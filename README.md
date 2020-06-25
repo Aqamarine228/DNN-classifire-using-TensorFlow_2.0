@@ -9,7 +9,7 @@ At first il loads MINST Fashion dataset from Tensorflow and split it into train 
 4. Fourth layer is second hidden layer, it's preatty same as first hidden layer but has only 100 neurons
 5. Fift layer is [Batch normalization](https://towardsdatascience.com/batch-normalization-in-neural-networks-1ac91516821c)
 6. Last layer is output layer that use [Softmax activation function](https://medium.com/data-science-bootcamp/understand-the-softmax-function-in-minutes-f3a59641e86d) 
-⋅⋅* Model uses [Adam optimizer](https://towardsdatascience.com/adam-latest-trends-in-deep-learning-optimization-6be9a291375c) and saves trained model evry epoch in checkpoint directory that creates at the begining.
+⋅⋅*Model uses [Adam optimizer](https://towardsdatascience.com/adam-latest-trends-in-deep-learning-optimization-6be9a291375c) and saves trained model evry epoch in checkpoint directory that creates at the begining.
 
 ## How can I use it?
 
