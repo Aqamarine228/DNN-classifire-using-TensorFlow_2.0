@@ -2,7 +2,7 @@
 This is neural network with one input layer, two hidden layers and ten output layers. It uses TensorFlow2.0 and Keras as arhetecture of neural network.
 ## How it works ?
 
-At first il loads MINST Fashion dataset from Tensorflow and split it into train and test labels.Model uses [Adam optimizer](https://towardsdatascience.com/adam-latest-trends-in-deep-learning-optimization-6be9a291375c) and saves trained model evry epoch in checkpoint directory that creates at the begining. Network has 6 layers:
+At first il loads MINST Fashion dataset from Tensorflow and split it into train and test labels. Model uses [Adam optimizer](https://towardsdatascience.com/adam-latest-trends-in-deep-learning-optimization-6be9a291375c) and saves trained model evry epoch in checkpoint directory that creates at the begining. Network has 6 layers:
 1. First layer is input layer that reshapes input in 28x28 pixels
 2. Second layer is first hidden layer with 200 neurons, it uses [ELU activation function](https://sefiks.com/2018/01/02/elu-as-a-neural-networks-activation-function/) and [Variance scaling initalizer](https://medium.com/@prateekvishnu/xavier-and-he-normal-he-et-al-initialization-8e3d7a087528)
 3. Third layer is [Dropout function](https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5)
